@@ -1,10 +1,6 @@
 {
   "version": 2,
-  "functions": {
-    "api/*": {
-      "region": "iad1"
-    }
-  },
+  "regions": ["iad1"],
   "builds": [
     {
       "src": "api/*.js",
